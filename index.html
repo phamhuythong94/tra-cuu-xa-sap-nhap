@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tra cứu xã/phường sáp nhập</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; max-width: 600px; margin: auto; }
+    input { width: 100%; padding: 10px; margin: 10px 0; }
+    .result { background: #f0f0f0; padding: 10px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <h1>Tra cứu xã/phường sáp nhập</h1>
+  <input type="text" id="search" placeholder="Nhập tên xã/phường..." oninput="searchData()">
+  <div id="result" class="result"></div>
+
+  <!-- QUẢNG CÁO GOOGLE ADSENSE DÁN Ở ĐÂY -->
+
+  <script>
+    let data = [];
+
+    async function loadData() {
+      const res = await fetch('data.json');
+      data = await res.json();
+    }
+
+    function searchData() {
+      const query = document.getElementById('search').value.trim().toLowerCase();
+      const result = data.find(item => item.xa.toLowerCase().includes(query));
+      const resultDiv = document.getElementById('result');
+
+      if (result) {
+        resultDiv.innerHTML = `<b>${result.xa}</b> nay thuộc <b>${result.huyen}</b>, <b>${result.tinh}</b><br>
+          <a href="${result.link}" target="_blank">Xem công văn</a>`;
+      } else {
+        resultDiv.innerHTML = 'Không tìm thấy';
+      }
+    }
+
+    loadData();
+  </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+[
+  {
+    "xa": "Xã ABC",
+    "huyen": "Huyện XYZ",
+    "tinh": "Tỉnh Mới 1",
+    "link": "https://example.com/congvanabc"
+  },
+  {
+    "xa": "Phường DEF",
+    "huyen": "Quận QWE",
+    "tinh": "Tỉnh Mới 2",
+    "link": "https://example.com/congvandef"
+  }
+]
