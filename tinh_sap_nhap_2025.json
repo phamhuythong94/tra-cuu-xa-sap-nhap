@@ -1,0 +1,32 @@
+[
+  {
+    "ten": "Thành phố Hà Nội",
+    "lat": 21.0285,
+    "lng": 105.8542,
+    "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"
+  },
+  {
+    "ten": "Tỉnh Bắc Ninh",
+    "lat": 21.1861,
+    "lng": 106.0763,
+    "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"
+  },
+  {
+    "ten": "Tỉnh Quảng Ninh",
+    "lat": 21.0064,
+    "lng": 107.2925,
+    "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"
+  },
+  {
+    "ten": "Thành phố Hải Phòng",
+    "lat": 20.8449,
+    "lng": 106.6881,
+    "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"
+  },
+  {
+    "ten": "Tỉnh Hưng Yên",
+    "lat": 20.6464,
+    "lng": 106.0511,
+    "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"
+  }
+]
