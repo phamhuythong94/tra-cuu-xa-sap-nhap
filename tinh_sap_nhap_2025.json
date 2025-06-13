@@ -1,32 +1,39 @@
 [
-  {
-    "ten": "Thành phố Hà Nội",
-    "lat": 21.0285,
-    "lng": 105.8542,
-    "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"
-  },
-  {
-    "ten": "Tỉnh Bắc Ninh",
-    "lat": 21.1861,
-    "lng": 106.0763,
-    "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"
-  },
-  {
-    "ten": "Tỉnh Quảng Ninh",
-    "lat": 21.0064,
-    "lng": 107.2925,
-    "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"
-  },
-  {
-    "ten": "Thành phố Hải Phòng",
-    "lat": 20.8449,
-    "lng": 106.6881,
-    "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"
-  },
-  {
-    "ten": "Tỉnh Hưng Yên",
-    "lat": 20.6464,
-    "lng": 106.0511,
-    "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"
-  }
+  // Không sáp nhập
+  {"ten": "Thành phố Hà Nội", "lat": 21.0285, "lng": 105.8542, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"},
+  {"ten": "Thành phố Huế", "lat": 16.4637, "lng": 107.5909, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"},
+  {"ten": "Tỉnh Lai Châu", "lat": 22.3862, "lng": 103.4703, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"},
+  {"ten": "Tỉnh Điện Biên", "lat": 21.3860, "lng": 103.0230, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"},
+  {"ten": "Tỉnh Sơn La", "lat": 21.3256, "lng": 103.9182, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"},
+  {"ten": "Tỉnh Lạng Sơn", "lat": 21.8537, "lng": 106.7615, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"},
+  {"ten": "Tỉnh Quảng Ninh", "lat": 21.0064, "lng": 107.2925, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"},
+  {"ten": "Tỉnh Thanh Hoá", "lat": 19.8067, "lng": 105.7852, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"},
+  {"ten": "Tỉnh Nghệ An", "lat": 19.2342, "lng": 104.9200, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"},
+  {"ten": "Tỉnh Hà Tĩnh", "lat": 18.3559, "lng": 105.8876, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"},
+  {"ten": "Tỉnh Cao Bằng", "lat": 22.6657, "lng": 106.2570, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"},
+
+  // Sau sáp nhập, hợp nhất
+  {"ten": "Tỉnh Tuyên Quang", "lat": 21.8236, "lng": 105.2140, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Tuyên Quang + Hà Giang, trung tâm: Tuyên Quang
+  {"ten": "Tỉnh Lào Cai", "lat": 21.7051, "lng": 104.8720, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Lào Cai + Yên Bái, trung tâm: Yên Bái
+  {"ten": "Tỉnh Thái Nguyên", "lat": 21.5942, "lng": 105.8482, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Bắc Kạn + Thái Nguyên, trung tâm: Thái Nguyên
+  {"ten": "Tỉnh Phú Thọ", "lat": 21.3226, "lng": 105.4020, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Vĩnh Phúc + Phú Thọ + Hoà Bình, trung tâm: Phú Thọ
+  {"ten": "Tỉnh Bắc Ninh", "lat": 21.2731, "lng": 106.1946, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Bắc Ninh + Bắc Giang, trung tâm: Bắc Giang
+  {"ten": "Tỉnh Hưng Yên", "lat": 20.6464, "lng": 106.0511, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Hưng Yên + Thái Bình, trung tâm: Hưng Yên
+  {"ten": "Thành phố Hải Phòng", "lat": 20.8449, "lng": 106.6881, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Hải Dương + Hải Phòng, trung tâm: Hải Phòng
+  {"ten": "Tỉnh Ninh Bình", "lat": 20.2506, "lng": 105.9745, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Hà Nam + Ninh Bình + Nam Định, trung tâm: Ninh Bình
+  {"ten": "Tỉnh Quảng Trị", "lat": 17.4689, "lng": 106.6222, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Quảng Bình + Quảng Trị, trung tâm: Quảng Bình
+  {"ten": "Thành phố Đà Nẵng", "lat": 16.0471, "lng": 108.2068, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Quảng Nam + Đà Nẵng, trung tâm: Đà Nẵng
+  {"ten": "Tỉnh Quảng Ngãi", "lat": 15.1200, "lng": 108.7923, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Kon Tum + Quảng Ngãi, trung tâm: Quảng Ngãi
+  {"ten": "Tỉnh Gia Lai", "lat": 13.9831, "lng": 108.0011, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Gia Lai + Bình Định, trung tâm: Bình Định
+  {"ten": "Tỉnh Khánh Hoà", "lat": 12.2570, "lng": 109.0448, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Ninh Thuận + Khánh Hoà, trung tâm: Khánh Hoà
+  {"ten": "Tỉnh Lâm Đồng", "lat": 11.9404, "lng": 108.4583, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Lâm Đồng + Đắk Nông + Bình Thuận, trung tâm: Lâm Đồng
+  {"ten": "Tỉnh Đắk Lắk", "lat": 12.6665, "lng": 108.0378, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Đắk Lắk + Phú Yên, trung tâm: Đắk Lắk
+  {"ten": "Thành phố Hồ Chí Minh", "lat": 10.7769, "lng": 106.7009, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // BRVT + Bình Dương + TPHCM, trung tâm: TPHCM
+  {"ten": "Tỉnh Đồng Nai", "lat": 10.9453, "lng": 106.8272, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Đồng Nai + Bình Phước, trung tâm: Đồng Nai
+  {"ten": "Tỉnh Tây Ninh", "lat": 11.3116, "lng": 106.0988, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Tây Ninh + Long An, trung tâm: Long An
+  {"ten": "Thành phố Cần Thơ", "lat": 10.0452, "lng": 105.7469, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Cần Thơ + Sóc Trăng + Hậu Giang, trung tâm: Cần Thơ
+  {"ten": "Tỉnh Vĩnh Long", "lat": 10.2539, "lng": 105.9722, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Bến Tre + Vĩnh Long + Trà Vinh, trung tâm: Vĩnh Long
+  {"ten": "Tỉnh Đồng Tháp", "lat": 10.4541, "lng": 105.6324, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Tiền Giang + Đồng Tháp, trung tâm: Tiền Giang
+  {"ten": "Tỉnh Cà Mau", "lat": 9.1768, "lng": 105.1524, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"}, // Bạc Liêu + Cà Mau, trung tâm: Cà Mau
+  {"ten": "Tỉnh An Giang", "lat": 10.5369, "lng": 105.4185, "link": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=82990"} // An Giang + Kiên Giang, trung tâm: Kiên Giang
 ]
